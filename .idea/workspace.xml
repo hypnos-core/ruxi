@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="昨天的">
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/DocTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/NewArrway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/NumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/util/SourceDoc.java" afterDir="false" />
+    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="今天的">
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/may/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/may/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +75,14 @@
     "Application.ArrayTest.executor": "Run",
     "Application.NumberTest.executor": "Run",
     "Application.SourceTree.executor": "Run",
+    "Application.chocalact.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ProgramX86File/JavaCode/myself/Leetcode",
+    "last_opened_file_path": "D:/ProgramX86File/JavaCode/MICE/MICE-Myself",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +95,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberTest">
+  <component name="RunManager" selected="Application.chocalact">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.number.ArrayTest" />
       <module name="may" />
@@ -139,8 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chocalact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.number.chocalact" />
+      <module name="may" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chocalact" />
         <item itemvalue="Application.NumberTest" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.SourceTree" />
@@ -155,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716090062820</updated>
-      <workItem from="1716090063859" duration="7008000" />
+      <workItem from="1716090063859" duration="10480000" />
     </task>
     <task id="LOCAL-00001" summary="昨天的">
       <option name="closed" value="true" />
@@ -165,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716091029266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="今天的">
+      <option name="closed" value="true" />
+      <created>1716136188673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716136188673</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +214,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="昨天的" />
-    <option name="LAST_COMMIT_MESSAGE" value="昨天的" />
+    <MESSAGE value="今天的" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天的" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/chocalact.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
