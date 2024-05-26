@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="今天的">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/number/NumberTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +77,11 @@
     "Application.ArrayTest.executor": "Run",
     "Application.NumberTest.executor": "Run",
     "Application.NumberTest1.executor": "Debug",
+    "Application.Solution1.executor": "Run",
+    "Application.Solution2.executor": "Run",
     "Application.SourceTree.executor": "Run",
     "Application.chocalact.executor": "Run",
+    "Application.dp1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,33 +102,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberTest1">
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.number.ArrayTest" />
-      <module name="may" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.number.NumberTest" />
-      <module name="may" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.dp1">
     <configuration name="NumberTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.number.NumberTest1" />
       <module name="may" />
@@ -138,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SourceTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.number.SourceTree" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.Solution1" />
       <module name="may" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.number.*" />
+          <option name="PATTERN" value="org.example.jun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.Solution2" />
+      <module name="may" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.dp1" />
+      <module name="may" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dp1" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.NumberTest1" />
         <item itemvalue="Application.chocalact" />
-        <item itemvalue="Application.NumberTest" />
-        <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.SourceTree" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1716090062820</updated>
       <workItem from="1716090063859" duration="10596000" />
-      <workItem from="1716306750389" duration="3750000" />
+      <workItem from="1716306750389" duration="5373000" />
+      <workItem from="1716734880703" duration="3028000" />
     </task>
     <task id="LOCAL-00001" summary="昨天的">
       <option name="closed" value="true" />
@@ -209,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716220589809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="今天的">
+      <option name="closed" value="true" />
+      <created>1716310506625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716310506625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
