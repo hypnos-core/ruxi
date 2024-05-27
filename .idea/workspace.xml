@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="今天的">
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java" afterDir="false" />
+    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="今天的 我不懂dp 先找了一个简单的">
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,36 +70,36 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayTest.executor": "Run",
-    "Application.NumberTest.executor": "Run",
-    "Application.NumberTest1.executor": "Debug",
-    "Application.Solution1.executor": "Run",
-    "Application.Solution2.executor": "Run",
-    "Application.SourceTree.executor": "Run",
-    "Application.chocalact.executor": "Run",
-    "Application.dp1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ProgramX86File/JavaCode/MICE/MICE-Myself",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTest1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SourceTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chocalact.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dp1.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProgramX86File/JavaCode/MICE/MICE-Myself&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.dp1">
     <configuration name="NumberTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.number.NumberTest1" />
@@ -188,7 +186,8 @@
       <updated>1716090062820</updated>
       <workItem from="1716090063859" duration="10596000" />
       <workItem from="1716306750389" duration="5373000" />
-      <workItem from="1716734880703" duration="3028000" />
+      <workItem from="1716734880703" duration="4614000" />
+      <workItem from="1716827268102" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="昨天的">
       <option name="closed" value="true" />
@@ -222,7 +221,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716310506625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="前天的">
+      <option name="closed" value="true" />
+      <created>1716738381975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716738381975</updated>
+    </task>
+    <task id="LOCAL-00006" summary="大前天的">
+      <option name="closed" value="true" />
+      <created>1716738405108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716738405108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="今天的 我不懂dp 先找了一个简单的">
+      <option name="closed" value="true" />
+      <created>1716738477368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716738477368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +277,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="昨天的" />
     <MESSAGE value="今天的" />
-    <option name="LAST_COMMIT_MESSAGE" value="今天的" />
+    <MESSAGE value="前天的" />
+    <MESSAGE value="大前天的" />
+    <MESSAGE value="今天的 我不懂dp 先找了一个简单的" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天的 我不懂dp 先找了一个简单的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,6 +354,36 @@
           <url>file://$PROJECT_DIR$/may/src/main/java/org/example/number/NumberTest1.java</url>
           <line>40</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
