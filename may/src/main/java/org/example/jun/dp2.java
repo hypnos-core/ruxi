@@ -24,6 +24,9 @@ public class dp2 {
                 }
             }
         }
+
+
+
         System.out.println(len);
 
     }
