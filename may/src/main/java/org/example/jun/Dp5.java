@@ -1,11 +1,15 @@
 package org.example.jun;
 
+import java.util.Arrays;
+import java.util.OptionalInt;
+
 public class Dp5 {
 
     public static void main(String[] args) {
         
         //String test ="((((((()))((()()))))";
-        String test = "(()";
+        //String test = "(()";
+        String test = "((())";
         int n = test.length();
         int[] dp = new int[n];
         for (int i = 0; i < n; i++) {
@@ -31,10 +35,10 @@ public class Dp5 {
                             System.out.println("测试");
                         }
                     }
-                    
                 }
             }
         }
-        
+        OptionalInt max = Arrays.stream(dp).max();
+        System.out.println(max);
     }
 }
