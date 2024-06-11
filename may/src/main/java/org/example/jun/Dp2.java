@@ -1,6 +1,6 @@
 package org.example.jun;
 
-public class dp2 {
+public class Dp2 {
 
     public static void main(String[] args) {
 

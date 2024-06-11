@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="今天的 贪心">
-      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp3.java" afterDir="false" />
+    <list default="true" id="daedc873-3705-4710-826e-70af82d78599" name="Changes" comment="dp">
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/may/src/main/java/org/example/jun/dp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +83,7 @@
     "Application.Solution2.executor": "Run",
     "Application.SourceTree.executor": "Run",
     "Application.chocalact.executor": "Run",
+    "Application.db5.executor": "Run",
     "Application.dp1.executor": "Debug",
     "Application.dp3.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -102,13 +106,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dp3">
-    <configuration name="NumberTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.number.NumberTest1" />
+  <component name="RunManager" selected="Application.Dp5">
+    <configuration name="Dp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.Dp1" />
       <module name="may" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.number.*" />
+          <option name="PATTERN" value="org.example.jun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.Dp3" />
+      <module name="may" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dp5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jun.Dp5" />
+      <module name="may" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,39 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jun.dp1" />
-      <module name="may" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.jun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jun.dp3" />
-      <module name="may" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.jun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dp3" />
-        <item itemvalue="Application.dp1" />
+        <item itemvalue="Application.Dp5" />
+        <item itemvalue="Application.Dp3" />
+        <item itemvalue="Application.Dp1" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.NumberTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +194,8 @@
       <workItem from="1716306750389" duration="5373000" />
       <workItem from="1716734880703" duration="4614000" />
       <workItem from="1716827268102" duration="2454000" />
-      <workItem from="1717239731580" duration="3363000" />
+      <workItem from="1717239731580" duration="4054000" />
+      <workItem from="1718118983592" duration="3713000" />
     </task>
     <task id="LOCAL-00001" summary="昨天的">
       <option name="closed" value="true" />
@@ -256,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716828267554</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dp">
+      <option name="closed" value="true" />
+      <created>1717519625454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717519625455</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +305,8 @@
     <MESSAGE value="大前天的" />
     <MESSAGE value="今天的 我不懂dp 先找了一个简单的" />
     <MESSAGE value="今天的 贪心" />
-    <option name="LAST_COMMIT_MESSAGE" value="今天的 贪心" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,47 +382,47 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>6</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>10</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>12</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>13</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>14</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp1.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp1.java</url>
           <line>15</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp3.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp3.java</url>
           <line>15</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp3.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp3.java</url>
           <line>16</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/dp3.java</url>
+          <url>file://$PROJECT_DIR$/may/src/main/java/org/example/jun/Dp3.java</url>
           <line>14</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
